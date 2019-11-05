@@ -1,8 +1,3 @@
-
-*{
-    background-color: skyblue;
-    font-size: 25px;
-}
 #zero{
     display: flex;
     flex-direction: column;
@@ -12,7 +7,7 @@
     align-self: center;
     text-align: center;
     border:1px solid white;
-    background-image:URL("https://lh3.googleusercontent.com/9QRl2rHHUaQqYVWshaEo5fmWpAdISgv5aq_ODOss5O_zzoTwpVaYV7ICf_U27odqYyII=s152");
+    background-image:URL;
     background-repeat:no-repeat;
     background-size:cover;
     opacity: 0.9;
@@ -43,8 +38,17 @@ nav>ul>li{
     display:inline-block;
     color: white;
 }
-nav>ul>li>a:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
-    background: rgba(221, 109, 35, 0.678);
-    color: white;
-    }
+ nav>ul>li>a:hover {
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+ background: rgba(221, 109, 35, 0.678);
+ color: white;
+ }
+ footer{
+     background-color: brown;
+ }
+ *{
+     margin: 0 auto;
+     padding: 20px;
+     color:blue;
+     background-color:orchid
+ }

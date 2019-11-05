@@ -2,6 +2,7 @@ table,th,td,tr{
     padding: 5px;
     border-collapse: collapse;
     border: 2px solid black;
+    font-size: 25px;
 
   }
  nav{
@@ -35,4 +36,8 @@ table,th,td,tr{
   }
   footer{
       background-color: brown;
+      font-size:20px;
+  }
+  body{
+      background-color: lightseagreen;
   }
