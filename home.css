@@ -1,0 +1,32 @@
+body{
+    color:solid blue;
+    padding: 1px;
+    border:1px solid green;
+    background-color: skyblue;
+
+}
+nav{
+    position: fixed;
+    background-color: transparent;
+    padding:40px;
+    color:white;
+    right: 0;
+}
+nav>ul{
+    text-align: right;
+    top:0;
+    left:0;
+    right:0;
+}
+nav>lsli{
+    color:white;
+}
+nav>ul>li{
+   padding: 18px;
+   margin-right: 0;
+   text-transform: uppercase;
+   text-decoration: none;
+    display:inline-block;
+    color: white;
+    font-size: 20px;
+}
