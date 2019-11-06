@@ -29,21 +29,16 @@ nav>ul>li>a:hover {
     background: rgba(221, 109, 35, 0.678);
     color: white;
     }
-    .column{
-        align:center;
-        align-self:center;
-        text-align:center;
-        font-size: 40px;
-    }
+    
 
     body{
-        border:1px solid blue;
-        padding: 50px;
-        margin: 50px;
-        background-image:URL("https://lh3.googleusercontent.com/iQFAm5mDNcrjEMBNL8vSclyBshqARo-LF49RgVGBbEE_MWCMfs7yAs1LdtMFarj-uH0sqS8=s150");
+        border: ipx solid blue;
+        background-image:URL("https://lh3.googleusercontent.com/CstxBfxonYLWNA7038wtPcYwM0uL9_fRED2jSB2co0vcuMDkcji_24n8sZ6lspRzXWV0L0E=s136");
         background-repeat: no-repeat;
         background-size:cover;
         color: black;
+        height:2000px;
+        box-sizing:border-box;
     }   
     h1{
         border:1px yellow;
@@ -66,6 +61,9 @@ nav>ul>li>a:hover {
         align-self:center;
         text-align:center;
         font-size:25px;
+        border:1px yellow;
+        padding:10px;
+        margin:10px;
     }
     footer{
         background-color: lightgreen;
@@ -73,6 +71,72 @@ nav>ul>li>a:hover {
         background-size:contain;
         background-repeat: no-repeat;
         border-color:pale greenyellow;
+        bottom:0;
     
     }
+   
+    #one{
+        border:1px solid white;
+        background-color:grey;
+        margin-left: 180px;
+        margin-right: 180px;
+        padding: 5px;
+        text-shadow: 3px 3px 5px yellow;
+    }
+    #two{
+        border:1px white;
+        padding:5px;
+        margin: 20px;
+        width: 350px;
+        height: 200px;
+        align-self:center;
+        font-size: 27px;
+
+    }
+    #three{
+        border:1px white;
+        padding:5px;
+        margin: 20px;
+        width: 350px;
+        height: 200px;
+        align-self:center;
+        font-size:27px;
+     
+    }
+    .column{
+        display:flex;
+    }
+    #zero{
+        border:1px yellow;
+        border-radius:20px;
+        align-self:center;
+        font-size:25px;
+        border:1px yellow;
+        padding:10px;
+        margin:10px;
+    }
+    .none{
+        border: 3px dotted green;
+        width: 200px;
+        height: 300p;
+        border:1px white;
+        padding:20px;
+        width: 350px;
+        height: 200px;;
+        font-size: 27px;
+        box-sizing:content-box;
+        overflow:auto;
+
+    }
+    #four{
+        border:1px white;
+        padding:5px;
+        margin: 20px;
+        width: 250px;
+        height: 200px;
+        align-self:center;
+        font-size:27px;
+     
+    }
+
 
