@@ -37,13 +37,16 @@ nav>ul>li>a:hover {
         border: 1px solid blue;
         margin:10%;
         padding:10%;
+        padding-top:10px;
+        margin-top:10px;
+        margin-bottom:10px;
         background-image:URL("https://lh3.googleusercontent.com/CstxBfxonYLWNA7038wtPcYwM0uL9_fRED2jSB2co0vcuMDkcji_24n8sZ6lspRzXWV0L0E=s136");
         background-repeat: no-repeat;
         background-size:cover;
         color: black;
         padding-left:50px;
         padding-right:50px;
-        height:1500px;
+        height:1699px;
         margin-right: 50px;
         margin-left: 50px;
     
@@ -141,15 +144,33 @@ nav>ul>li>a:hover {
     }
     #five{
        display:flex;
+       flex-grow:100;
     
     }
     footer{
         border:1px solid green;
-        scroll-padding-left:0;
-        margin:32%;
-        background-color:grey;
-      font-size:20px;
-      bottom:-5px;
-    
-
+        background-color: brown;
+        left:0px;
+        font-size:20px;
+        padding:1px;
+        margin: 32%;
+        width:900px;
+        flex-direction:column;
+        margin-top:1px;
+    }
+    #six{
+        display:flex;
+        align-items: start;
+        border: 3px dotted green;
+        width: 200px;
+        height: 30px;
+        border:1px white;
+        padding:20px;
+        width: 300px;
+        height: 200px;;
+        font-size: 27px;
+        box-sizing:content-box;
+        overflow:auto;
+        align-self:flex-end;
+        
     }
