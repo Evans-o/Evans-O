@@ -4,7 +4,7 @@ body{
     padding: 1px;
     border:1px solid green;
     background-color: skyblue;
-    height:2550px;
+    height:2650px;
 }
 nav{
     position: fixed;
@@ -101,4 +101,16 @@ nav>ul>li{
     display:flex;
     flex-direction:column;
     justify-content: space-evenly;
+    font-size:25px;
  }
+ footer{
+    background-color:lime;
+    font-size:20px;
+
+
+}
+.properties:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(221, 109, 35, 0.678);
+    color: white;
+    }
