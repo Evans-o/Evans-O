@@ -4,7 +4,7 @@ body{
     padding: 1px;
     border:1px solid green;
     background-color: skyblue;
-    height:2300px;
+    height:2550px;
 }
 nav{
     position: fixed;
@@ -96,4 +96,8 @@ nav>ul>li{
      display:flex;
      align-items:center;
      justify-content: space-evenly;
+ }
+ .properties{
+    display:flex;
+    justify-content: space-evenl
  }

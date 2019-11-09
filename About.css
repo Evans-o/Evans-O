@@ -99,6 +99,7 @@ nav>ul>li>a:hover {
     }
     #three{
         border:1px white;
+        color: Amber;
         padding:5px;
         margin: 20px;
         width: 340px;

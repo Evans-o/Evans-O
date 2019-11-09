@@ -11,7 +11,9 @@ table,th,td,tr{
      padding:40px;
      color:white;
      right: 0;
-     font-size:25px;
+     font-size: 30px;
+    font-weight: bold;
+    text-shadow:3px 3px 5px white;
  }
  nav>ul{
      text-align: right;

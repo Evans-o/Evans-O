@@ -1,6 +1,6 @@
  
 #cool{
-    background-image:("https://lh3.googleusercontent.com/QgMVv2UmQAMiS2EO7R_NgFsuYnzf096j4kyQ5yt5ycvF5KDlKj-DltejwcTppAJGD4SD=s128");
+    background-image:("https://images.pexels.com/photos/2360684/pexels-photo-2360684.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-repeat:no-repeat;
     background-size:contain;
 }
@@ -68,7 +68,7 @@ nav>ul>li>a:hover {
         border:1px solid blue;
         padding: 10px;
         margin: 10px;
-        background-image:URL("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLD5jH-q_913aY-Ki_aato9awQMPMt-G2RokI-dr8oKHQzfe-5&s");
+        background-image:URL("https://images.pexels.com/photos/2360684/pexels-photo-2360684.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
         background-repeat: no-repeat;
         background-size:cover;
         color: white;
