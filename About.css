@@ -161,6 +161,7 @@ nav>ul>li>a:hover {
     #six{
         display:flex;
         align-items: start;
+        justify-content:space-evenly;
         border: 3px dotted green;
         width: 200px;
         height: 300p;

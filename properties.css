@@ -4,7 +4,7 @@ body{
     padding: 1px;
     border:1px solid green;
     background-color: skyblue;
-    height:1000px;
+    height:2300px;
 }
 nav{
     position: fixed;
@@ -88,5 +88,12 @@ nav>ul>li{
     color: navy;
  }
  #five{
-    display: flex;
-    bottom:0;
+     display:flex;
+     align-items: center;
+     justify-content: space-evenly;
+ }
+ pan{
+     display:flex;
+     align-items:center;
+     justify-content: space-evenly;
+ }
