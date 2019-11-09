@@ -99,5 +99,6 @@ nav>ul>li{
  }
  .properties{
     display:flex;
-    justify-content: space-evenl
+    flex-direction:column;
+    justify-content: space-evenly;
  }
