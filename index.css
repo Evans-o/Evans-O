@@ -1,19 +1,30 @@
-/* Tablet Landscape */
-/* @media screen and (max-width: 1060px) { */
-    /* #primary { width:67%; } */
-    /* #secondary { width:30%; margin-left:3%;}   */
-/* Tabled Portrait */
+
 @media screen and (max-width: 768px) {
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
 } 
-
-#cool{
-    background-image:("https://images.pexels.com/photos/2360684/pexels-photo-2360684.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+header{
+    display: flex;
+    left:-20px;
+    margin-right: 100px;
+    margin-left: 50px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size:25px;
+    border:1px solid white;
     background-repeat:no-repeat;
-    background-size:contain;
+    background-size: contain;
 }
-
+body{
+    border:1px solid blue;
+    padding: 30px;
+    margin: 30px;
+    height:1500px;
+    background-image:URL("https://images.pexels.com/photos/2360684/pexels-photo-2360684.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+}
 nav{
     position: fixed;
     background-color: transparent;
@@ -32,7 +43,7 @@ nav>ul{
 }
 
 nav>ul>li{
-   padding: 18px;@
+   padding: 18px;
    margin-right: 0;
    text-transform: uppercase;
    text-decoration: none;
@@ -44,37 +55,20 @@ nav>ul>li>a:hover {
     background: rgba(221, 109, 35, 0.678);
     color: white;
     }
-    header{
-        display: flex;
-        align-self:center;
-        left:-20px;
-        margin-right: 50px;
-        justify-content:center;
-        font-size:25px;
-        border:1px solid white;
-        background-image:URL("https://lh3.googleusercontent.com/huX2PU76OyVKncx3NfCdrezxhxNKb9KACEWQZRyrL8MriKng9z-U5fsbl27eMbnloeJG=s152");
-        background-repeat:no-repeat;
-        background-size: contain;
-    }
-    .column{
-        display: flex;
-        justify-content:center;
-        font-size:100px;
-        padding:10%;
-    }
-    body{
-        border:1px solid blue;
-        padding: 10px;
-        margin: 10px;
-        background-image:URL("https://images.pexels.com/photos/2360684/pexels-photo-2360684.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-        background-repeat: no-repeat;
-        background-size:cover;
-        color: white;
-        overflow: hidden;
-    }
-    footer{
-        background-color: brown;
-        font-size:20px;
+#cool{
+    background-image:("https://images.pexels.com/photos/2360684/pexels-photo-2360684.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+.column{
+    display: flex;
+    justify-content:center;
+    font-size:100px;
+    padding:10%;
+}
+
 
     
-    }
+    
+    
+

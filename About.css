@@ -16,25 +16,13 @@ nav>ul{
     left:0;
     right:0;
 }
-/* nav>lsli{
-    color:white;
-} */
+
 nav>ul>li{
    padding: 18px;
    margin-right: 0;
    text-transform: uppercase;
    text-decoration: none;
     display:inline-block;
-}
-/* Tablet Landscape */
-/* @media screen and (max-width: 1060px) { */
-    /* #primary { width:67%; } */
-    /* #secondary { width:30%; margin-left:3%;}   */
-}
-/* Tabled Portrait */
-@media screen and (max-width: 768px) {
-    #primary { width:100%; }
-    #secondary { width:100%; margin:0; border:none; }
 }
 nav>ul>li>a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
@@ -45,18 +33,18 @@ nav>ul>li>a:hover {
 
     body{
         border: 1px solid blue;
-        margin:10%;
+        margin:0px;
         padding:10%;
         padding-top:10px;
         margin-top:10px;
         margin-bottom:10px;
-        background-image:URL("https://lh3.googleusercontent.com/CstxBfxonYLWNA7038wtPcYwM0uL9_fRED2jSB2co0vcuMDkcji_24n8sZ6lspRzXWV0L0E=s136");
+        background-image:URL("https://images.pexels.com/photos/1532771/pexels-photo-1532771.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
         background-repeat: no-repeat;
         background-size:cover;
         color: black;
         padding-left:50px;
         padding-right:50px;
-        height:1699px;
+        height:2550px;
         margin-right: 50px;
         margin-left: 50px;
     
@@ -119,70 +107,68 @@ nav>ul>li>a:hover {
      
     }
     .column{
+        border:1px solid green;
         display:flex;
         justify-content: space-evenly;
-    }
-    #zero{
-        border:1px yellow;
-        border-radius:20px;
-        align-self:center;
-        font-size:25px;
-        border:1px yellow;
-        padding:10px;
-        margin:10px;
-    }
-    .none{
-        border: 3px dotted green;
-        width: 200px;
-        height: 300p;
-        border:1px white;
-        padding:20px;
-        width: 300px;
-        height: 200px;;
-        font-size: 27px;
-        box-sizing:content-box;
-        overflow:auto;
+        font-size:30px;
+        margin:1%;
+        padding:1%;
+        padding-bottom:1px;
 
     }
-    #four{
-        padding:5px;
-        margin: 20px;
-        width: 250px;
-        height: 200px;
-        align-self:center;
-        font-size:27px;
-     
-    }
-    #five{
-       display:flex;
-       flex-grow:100;
-    
-    }
-    footer{
-        border:1px solid green;
-        background-color: brown;
-        left:0px;
-        font-size:20px;
-        padding:1px;
-        margin: 32%;
-        width:900px;
-        flex-direction:column;
-        margin-top:1px;
-    }
-    #six{
-        display:flex;
-        align-items: start;
-        justify-content:space-evenly;
-        border: 3px dotted green;
-        width: 200px;
-        height: 300p;
-        border:1px white;
-        padding:20px;
-        width: 300px;
-        height: 200px;;
-        font-size: 27px;
-        box-sizing:content-box;
-        overflow:auto;
-        align-self:flex-end;
+    #zero{
         
+        border-radius:20px;
+        align-self:center;
+        font-size:30px;
+        border:1px yellow;
+        padding:10px;
+        margin:10px;}
+        font-family: 'Roboto Mono', monospace;
+    #five{
+        display:flex;
+        justify-content: center;
     }
+    #zero{
+        border:1px solid blue;
+    }
+    .container{
+        border:1px dotted green;
+        justify-content: space-evenly;
+        font-size:30px;
+        margin:1%;
+        padding:1%;
+        padding-bottom:1px;
+
+    }
+    img{
+        display: flex;
+        align-items: center;
+        align-self: center;
+        position: relative;
+        left: 350px;
+    }
+    #link{
+        font-size:20px;
+
+    }
+    #link>li,a:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+        color: white;
+        }
+        #lin{
+            font-size:20px;
+            float:right;
+            position:relative;
+            bottom:25px;
+        }
+        #pat1{
+            font-family: 'Vollkorn', serif;
+
+        }
+        #pat2{
+            font-family: 'Vollkorn', serif;
+        }
+        #pat3{
+            font-family: 'Vollkorn', serif;
+        }
