@@ -44,7 +44,7 @@ nav>ul>li>a:hover {
         color: black;
         padding-left:50px;
         padding-right:50px;
-        height:2550px;
+        height:2600px;
         margin-right: 50px;
         margin-left: 50px;
     
@@ -107,38 +107,40 @@ nav>ul>li>a:hover {
      
     }
     .column{
-        border:1px solid green;
+        border:8px dotted lime;
         display:flex;
         justify-content: space-evenly;
         font-size:30px;
         margin:1%;
         padding:1%;
         padding-bottom:1px;
+        border-radius:30px;
 
     }
     #zero{
         
         border-radius:20px;
+       background-color:purple;
         align-self:center;
         font-size:30px;
-        border:1px yellow;
+        border:8px yellow;
         padding:10px;
-        margin:10px;}
+        margin:10px;
         font-family: 'Roboto Mono', monospace;
-    #five{
-        display:flex;
-        justify-content: center;
     }
     #zero{
-        border:1px solid blue;
+        border:5px solid blue;
     }
     .container{
-        border:1px dotted green;
+        border:8px dotted green;
         justify-content: space-evenly;
         font-size:30px;
         margin:1%;
         padding:1%;
         padding-bottom:1px;
+        border-radius:30px;
+        background-color:aqua;
+
 
     }
     img{
@@ -149,7 +151,7 @@ nav>ul>li>a:hover {
         left: 350px;
     }
     #link{
-        font-size:20px;
+        font-size:30px;
 
     }
     #link>li,a:hover {
@@ -157,18 +159,33 @@ nav>ul>li>a:hover {
         color: white;
         }
         #lin{
-            font-size:20px;
+            font-size:30px;
             float:right;
             position:relative;
             bottom:25px;
         }
         #pat1{
             font-family: 'Vollkorn', serif;
+            background-color:pink;
+            color:blue;
+            border-radius:20px;
 
         }
         #pat2{
             font-family: 'Vollkorn', serif;
+            background-color:lime;
+            border-radius:20px;
         }
         #pat3{
             font-family: 'Vollkorn', serif;
+            background-color:orange;
+            color:purple;
+            border-radius:20px;
+        }
+        #five{
+            display: flex;
+            align-content: center;
+            position:relative;
+            left:90px;
+            border-radius:20px;
         }

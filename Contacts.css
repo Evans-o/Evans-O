@@ -45,6 +45,13 @@ table,th,td,tr{
   body{
       background-color: lightseagreen;
   }
-  .one{
-      
+  #loc{
+      font-size:25px;
+      font-style:italic;
+      color:teal;
+      margin-bottom:2%;
+  }
+  #loc>li>a:hover{
+      box-shadow:amber;
+      background:yellow;
   }
