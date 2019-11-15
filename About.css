@@ -44,7 +44,7 @@ nav>ul>li>a:hover {
         color: black;
         padding-left:50px;
         padding-right:50px;
-        height:2600px;
+        height:2650px;
         margin-right: 50px;
         margin-left: 50px;
     
@@ -186,6 +186,6 @@ nav>ul>li>a:hover {
             display: flex;
             align-content: center;
             position:relative;
-            left:90px;
+            left:10px;
             border-radius:20px;
         }
